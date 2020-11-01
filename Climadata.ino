@@ -85,7 +85,7 @@ if (isnan(humidity) || isnan(temperature))
  dtostrf(temperature, 2, 0, temperatureString);
  dtostrf(humidity, 2, 0, humidityString);
  
-// send DHT and MQ135 data to the serial console
+// send DHT and MQ135 data to serial console
  Serial.print("Temperature ");
  Serial.println(temperatureString);
  Serial.print("Humidity ");
